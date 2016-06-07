@@ -12,6 +12,6 @@ xhr.get('https://api.wheretheiss.at/v1/satellites', function (err, data) {
     name: 'Space'
   })
   document.body.innerHTML = example({
-    id: data.body.id
+    data.body.id
   })
 })
